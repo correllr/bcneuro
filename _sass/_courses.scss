@@ -1,0 +1,128 @@
+#courses-title {
+	padding: 30px 0px;
+	color: $maincolor;
+	font-family: $mainfont;
+}
+
+.showcourse {
+	position: relative;
+	left: calc(100% - 30px);
+	bottom: 40px;
+}
+
+.hidecourse {
+	position: relative;
+	left: calc(100% - 30px);
+	bottom: 40px;
+}
+
+.course-block {
+	padding: 10px 0px;
+}
+
+#course-block-content {
+	display: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.course-block-title {
+	line-height: 4rem;
+	width: 100%;
+	text-align: center;
+	color: $maincolor;
+	background: rgba(0,0,0,0.05);
+}
+
+.course-block-description {
+	line-height: 1.5rem;
+	width: calc(100% - 250px);
+	display: inline;
+	padding: 10px;
+}
+
+.course-block-image {
+	display: inline;
+	border-radius: 10px;
+}
+
+.booknow {
+	width: 100%;
+	text-align: center;
+	color: darkorange;
+}
+
+#upcoming {
+	display: flex;
+	flex-wrap: wrap;
+	background: $maincolor;
+	color: white;
+	align-items: flex-start;
+}
+
+#upcoming-title {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	font-weight: 700;
+}
+
+.upcoming-link {
+	color: white;
+	text-decoration: none;
+}
+
+.upcoming-cta {
+	font-weight: 700;
+}
+
+.upcoming-block {
+	width: 25%;
+	padding: 20px 20px;
+	min-width: 400px;
+	margin: 0px auto;
+	line-height: 2rem;
+}
+
+#price {
+	padding: 20px 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#price-title {
+	width: 100%;
+	text-align: center;
+}
+
+#price-text {
+	text-align: center;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#columns {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: center;
+	margin: 0px auto;
+	padding: 20px 20px;
+}
+
+#col1 {
+	width: 250px;
+}
+
+#col2 {
+	width: 150px;
+	font-weight: 900;
+}
+
+#price-text-after {
+	padding: 20px 0px;
+	width: 50%;
+	min-width: 400px;
+	margin: auto;
+}

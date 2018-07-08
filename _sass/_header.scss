@@ -1,0 +1,74 @@
+// Header styling
+
+#hero {
+	width:100%;
+	height: 350px;
+	text-align: center;
+	background-size:100%;
+	background-position: center;
+	background-image: url(/bcneuro/wp-content/uploads/2018/07/PlasticSkull.jpg);
+	background-color: $maincolor;
+	background-blend-mode: lighten;
+}
+
+#hero img {
+	width: 100%;
+	height: 100%;
+}
+
+#hero--title {
+	width: 100%;
+	text-align: center;
+	font-size: 80px;
+	color:black;
+	position:relative;
+	top: 30px;
+}
+
+#hero--subtitle {
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	color:black;
+	position:relative;
+	top: 50px;
+}
+
+#hero--cta {
+	position:relative;
+	top: 90px;
+	display:inline;
+}
+
+#logo {
+	width: 100%;
+	display:flex;
+	margin: 10px 0px;
+	img {
+		margin:auto;
+	}	
+}
+
+// MENU 
+#header-menu {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: 4px 0px;
+}
+
+#header-menu ul {
+	font-size: 130%;
+	padding: 5px 0px;
+}
+#header-menu li {
+	display:inline;
+	margin: 0px 20px;
+}
+
+#header-menu a {
+	color: $maincolor;	
+	text-decoration: none;
+}

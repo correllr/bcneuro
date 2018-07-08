@@ -1,0 +1,47 @@
+#about-title {
+	padding: 20px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#about-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#about-text {
+	width: calc(100% - 350px);
+	min-width: 400px;
+	padding: 0px 20px;
+	line-height: 1.8rem;
+}
+
+#about-photo {
+	width: 300px;
+	border-radius: 10px;
+}
+
+#qualifications {
+	margin: 0px auto;
+}
+
+#qualifications-title {
+	color: $maincolor;
+}
+
+.qualification-text {
+	padding: 10px 0px;
+	font-weight: 700; 
+}
+
+#training {
+	margin: 0px auto;
+}
+
+#training-title {
+	color: $maincolor;
+}
+
+#training-list {
+	line-height: 2.3rem;
+}

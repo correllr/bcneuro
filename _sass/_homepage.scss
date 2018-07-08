@@ -1,0 +1,124 @@
+// Content Home Page
+
+#frontpage-pitch {
+	width: 80%;
+	margin: 20px auto 50px auto;
+	text-align: center;
+	line-height: 3.5rem;
+}
+
+#frontpage-pitch-text {
+	margin-bottom: 20px;
+}
+
+#frontpage-cta {
+	margin-top: 10px;
+}
+
+ // Team
+ 
+#frontteam {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#frontteam-title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+	color: $maincolor;
+}
+
+#frontteam-block {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px auto;
+	padding: 5px;
+}
+
+#frontteam-text {
+	width: calc(100% - 210px);
+	min-width: 500px;
+}
+
+.frontteam-img {
+	margin-right: 10px;
+	width: 200px;
+	height:200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.frontteam-description {
+	padding: 3px;
+}
+
+#frontteam-more {
+	width:100%;
+	text-align: center;
+	margin: auto;
+	color: darkorange;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+// Unique Selling Point
+#frontspecial-background {
+	width:100%;
+	background: $maincolor;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#frontspecial {
+	padding: 30px;
+	text-align: center;
+}
+
+#frontspecial-title {
+	line-height: 2.6rem;
+	margin-bottom: 20px;
+}
+
+// Testimonials
+#fronttestimonial {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#fronttestimonial-title {
+	margin-bottom: 20px;
+}
+
+#fronttestimonial-slider {
+	height: 300px;
+	background: orange;
+	display:flex;
+}
+
+#fronttestimonial-slider-text {
+	font-size: 120%;
+	background: rgba(0,0,0,0.2);
+	width:600px;
+	height: 200px;
+	margin:auto;
+	display:flex;
+	span {
+		height: auto;
+		width: 80%;
+		margin:auto;
+	}
+	p {
+		display: inline;
+		line-height: 2.2rem;
+	}
+}
+
+.fronttestimonial-slider--name {
+	margin-right: 0px;
+	font-weight: 700;
+}
