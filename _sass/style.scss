@@ -9,6 +9,8 @@
 @import '_contact.scss';
 @import '_courses.scss';
 @import '_about.scss';
+@import '_page.scss';
+@import '_testimonials.scss';
 
 // Global Styling
 
@@ -21,15 +23,30 @@ h1 {
 	font-weight: 700;
 	text-align: center;
 	padding: 20px 0px;
+	@media screen and (max-width: 1400px) {
+		font-size: 220%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 200%;
+	}
 }
 
 h2 {
 	font-size: 200%;
 	font-weight: 700;
+	@media screen and (max-width: 1400px) {
+		font-size: 180%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 160%;
+	}
 }
 
 h3 {
-	font-size: 120%;
+	font-size: 150%;
+	@media screen and (max-width: 1200px) {
+		font-size: 130%;
+	}
 }
 
 .btn {

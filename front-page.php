@@ -54,18 +54,33 @@
 		</h1>
 		<div id="fronttestimonial-slider">
 			<div id="fronttestimonial-slider-text">
-				<span>
-				Here there will be a sliding list of the wonderful things that people have to say about you. Short quotes here. Longer testimonials go somewhere else.
-				<br>
-				<p>-</p>
-				<p class="fronttestimonial-slider--name">
-				The Management
-				</p>
-				</span>
+					<?php get_template_part('slidebox'); ?>
+					<!--
+					<i class="fas fa-angle-left slider-left"></i>	
+					<span class="slidertext">
+						Here there will be a sliding list of the wonderful things that people have to say about you. Short quotes here. Longer testimonials go somewhere else.
+						<br>
+						<p>-</p>
+						<p class="fronttestimonial-slider--name">
+						The Management
+						</p>
+					</span>
+					<span class="slidertext">
+						Here there will be a sliding list of the wonderful things that people have to say about you. Short quotes here. Longer testimonials go somewhere else.
+						<br>
+						<p>-</p>
+						<p class="fronttestimonial-slider--name">
+						The Management
+						</p>
+					</span>
+					<i class="fas fa-angle-right slider-right"></i>
+					-->
 			</div>
 		</div>
 	</div>
 </div>
+
+
 
 
 <?php get_footer(); ?>

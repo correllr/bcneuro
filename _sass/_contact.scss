@@ -45,6 +45,7 @@
 	position: relative;
 	top: 20px;
 	font-size: 320%;
+	color: $maincolor;
 }
 
 #contact-flex {
@@ -60,12 +61,11 @@
 	width: 45%;
 	height: 50px;
 	margin: 10px auto;
+	line-height: 2.5rem;
 }
 
 #contact-form {
 	width: 45%;
-	height: 35vh;
-	border: 2px solid black;
 	margin: auto auto 10px auto;
 }
 
@@ -73,4 +73,30 @@
 	width: 100%;
 	height: 40vh;
 	margin:auto;
+}
+
+.wpcf7-form {
+	height: 220px;
+}
+
+.wpcf7-form p {
+	height: 28px;
+}
+
+.wpcf7-text,
+.wpcf7-textarea {
+	font-family: $secondfont;
+	font-size: 71%;
+	color: black;
+	font-weight: 600;
+}
+
+.wpcf7-submit {
+	position: relative;
+	top: 80px;
+	height: 25px;
+	background: rgba(0,0,0,0.05);
+	box-shadow: none;
+	border: solid 1px black;
+	color: black;
 }

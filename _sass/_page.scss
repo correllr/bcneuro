@@ -1,0 +1,45 @@
+#page-title {
+	color: $maincolor;
+}
+
+#page-description {
+	line-height: 1.2rem;
+	padding: 20px 0px;
+	
+}
+
+#page-content {
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.8rem;
+	height: 100%;
+	justify-content: space-between;
+}
+
+#page-description {
+	line-height: 1.8rem;
+}
+
+.page-column {
+	width: 30%;
+	min-width: 300px;
+	margin: 0px auto;
+	padding: 0px 5px;
+}
+
+.page-col-title {
+	width: 100%;
+	text-align: center;
+	color: $maincolor;
+}
+
+.page-link {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px 0px;
+}
+
+.page-link:hover {
+	color: $maincolor;
+}

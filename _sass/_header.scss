@@ -80,6 +80,13 @@
 #header-menu ul {
 	font-size: 130%;
 	padding: 5px 0px;
+	@media screen and (max-width: 1400px) {
+		font-size: 120%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 100%;
+		padding: 3px 0px;
+	}
 }
 #header-menu li {
 	display:inline;

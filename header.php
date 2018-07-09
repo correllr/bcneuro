@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 			<meta name="viewport" content="width=device-width">
-			<meta name="description" content="<!-- FILL THIS IN LATER! -->"/>
+			<meta name="description" content="Neurology Seminars Tailored Specially for Chiropractors, Physiotherapist and other Primary Care Practicioners"/>
 			<title><?php echo get_bloginfo('name'); ?></title>
 		
 			<?php wp_head(); ?>
