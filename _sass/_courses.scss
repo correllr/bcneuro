@@ -8,16 +8,28 @@
 	position: relative;
 	left: calc(100% - 30px);
 	bottom: 40px;
+	@media screen and (max-width: $mobilesize) {
+		bottom: 18px;
+		left: calc(100% - 20px);
+	}
 }
 
 .hidecourse {
 	position: relative;
 	left: calc(100% - 30px);
 	bottom: 40px;
+	@media screen and (max-width: $mobilesize) {
+		bottom: 18px;
+			left: calc(100% - 20px);
+	}
 }
 
 .course-block {
 	padding: 10px 0px;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		padding: 0px 0px 5px 0px;
+	}
 }
 
 #course-block-content {
@@ -33,6 +45,9 @@
 	text-align: center;
 	color: $maincolor;
 	background: rgba(0,0,0,0.05);
+	@media screen and (max-width: $mobilesize) {
+		line-height: 2rem;
+	}
 }
 
 .course-block-description {
@@ -40,17 +55,30 @@
 	width: calc(100% - 250px);
 	display: inline;
 	padding: 10px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		order: 1;
+	}
 }
 
 .course-block-image {
 	display: inline;
 	border-radius: 10px;
+	@media screen and (max-width: $mobilesize) {
+		width:80%;
+		height: 80%;
+		order: 0;
+		margin: auto;
+	}
 }
 
 .booknow {
 	width: 100%;
 	text-align: center;
 	color: darkorange;
+	@media screen and (max-width: $mobilesize) {
+		order: 5;
+	}
 }
 
 #upcoming {
@@ -83,6 +111,10 @@
 	min-width: 400px;
 	margin: 0px auto;
 	line-height: 2rem;
+	@media screen and (max-width: $mobilesize) {
+		min-width:auto;
+		width: 100%;
+	}
 }
 
 #price {
@@ -109,6 +141,9 @@
 	justify-content: center;
 	margin: 0px auto;
 	padding: 20px 20px;
+	@media screen and (max-width: $mobilesize) {
+		flex-wrap: wrap;
+	}
 }
 
 #col1 {
@@ -125,4 +160,8 @@
 	width: 50%;
 	min-width: 400px;
 	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		min-width: auto;
+	}
 }

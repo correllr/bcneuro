@@ -31,9 +31,18 @@
 	<?php } else { ?>
 	
 		<a id="logo" href="<?php echo home_url(); ?>">
-			<img src="/bcneuro/wp-content/uploads/2018/07/BCNeuro.jpg" alt="logo" width="500px">
+			<img src="/bcneuro/wp-content/uploads/2018/07/BCNeuro.jpg" alt="logo" width="100%" height=true>
 		</a>
 	<?php } ?>
+	
+<!--------- Menu --------->
+	<div id="mobilemenuopen">
+		<i class="fas fa-bars"></i><p>Menu</p>
+	</div>	
+	
+	<div id="mobilemenuclose">
+		<i class="fas fa-times"></i>
+	</div>
 	
 		<div id="header-menu">
 			<?php
@@ -42,6 +51,7 @@
 				);
 			?>
 			<?php wp_nav_menu( $args ); ?>	
+			
 		</div>
 	
 	<?php get_template_part('contact'); ?>

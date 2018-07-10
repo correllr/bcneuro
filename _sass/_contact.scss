@@ -22,6 +22,11 @@
 	transform-origin: left top 0;
 	cursor: pointer;
 	border-radius: 3px;
+	z-index: 9997;
+	@media screen and (max-width: $mobilesize) {
+		padding: 5px 15px;
+		right: -70px;
+	}
 }
 
 #contact-close {
@@ -63,6 +68,7 @@
 	margin: 10px auto;
 	line-height: 2.5rem;
 }
+
 
 #contact-form {
 	width: 45%;

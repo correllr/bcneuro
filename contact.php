@@ -9,7 +9,8 @@
 			<h3 id="contact-information">
 			To book a course or for any questions, you can reach me on:<br>
 			+447494 984332 <br>
-			jake@bcneuro.co.uk
+			jake@bcneuro.co.uk<br>
+			<a id="contactfblink" href="https://www.facebook.com/bcneuro/"><i class="fab fa-facebook-square fbicon"></i></a>
 			</h3>
 			<div id="contact-form">
 			 <?php echo do_shortcode('[contact-form-7 id="49" title="Untitled"]'); ?>

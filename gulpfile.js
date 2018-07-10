@@ -29,7 +29,8 @@ gulp.task('browser-sync', function() {
 	
 	browserSync.init(files, {
 		injectChanges: true,
-		proxy: 'http://localhost/bcneuro/'
+		proxy: 'http://localhost/bcneuro/',
+		//tunnel: "greatest-ruby-club"
 	});
 });
 

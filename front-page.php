@@ -6,7 +6,7 @@
 	<h1 id="frontpage-pitch-text">
 	Seminars and courses for Chiropractors, Physiotherapists and other Primary Care Providers, teaching neurology for daily use in your clinic
 	</h1>
-	<a id="frontpage-cta" class="btn" href="#">
+	<a id="frontpage-cta" class="btn" href="/bcneuro/courses-and-prices/">
 	Learn More
 	</a>
 </div>
@@ -33,7 +33,7 @@
 	</div>
 	<!-- From plugin, allow multiple -->
 	
-	<a id="frontteam-more" href="#">Read more about Jake here</a>
+	<a id="frontteam-more" href="/bcneuro/about-bc-neuro/">Read more about Jake here</a>
 </div>
 
 <div id="frontspecial-background">
@@ -55,26 +55,6 @@
 		<div id="fronttestimonial-slider">
 			<div id="fronttestimonial-slider-text">
 					<?php get_template_part('slidebox'); ?>
-					<!--
-					<i class="fas fa-angle-left slider-left"></i>	
-					<span class="slidertext">
-						Here there will be a sliding list of the wonderful things that people have to say about you. Short quotes here. Longer testimonials go somewhere else.
-						<br>
-						<p>-</p>
-						<p class="fronttestimonial-slider--name">
-						The Management
-						</p>
-					</span>
-					<span class="slidertext">
-						Here there will be a sliding list of the wonderful things that people have to say about you. Short quotes here. Longer testimonials go somewhere else.
-						<br>
-						<p>-</p>
-						<p class="fronttestimonial-slider--name">
-						The Management
-						</p>
-					</span>
-					<i class="fas fa-angle-right slider-right"></i>
-					-->
 			</div>
 		</div>
 	</div>

@@ -4,6 +4,24 @@ jQuery( document ).ready(function() {
 //On Page Load
 jQuery('.hidecourse').hide();
 
+//MENU 
+	// Open
+		jQuery('#mobilemenuopen').click(function() {
+			jQuery('#mobilemenuopen').css({'display':'hidden'});
+			jQuery('#header-menu').fadeIn(800);
+			jQuery('#mobilemenuclose').fadeIn(800);
+		});
+	
+	
+	// Close
+		jQuery('#mobilemenuclose').click(function() {
+			jQuery('#header-menu').hide();
+			jQuery('#mobilemenuclose').hide();
+			jQuery('#mobilemenuopen').fadeIn(800);
+		});
+	
+	
+
 // Show/Hide Contact Page
 
 	// Show
