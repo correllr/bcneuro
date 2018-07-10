@@ -38,54 +38,54 @@
 		<p id="training-list">
 	Carrick Institute modules:
 	<br>
-	200 Clinical applications of neuroscience
+	- 200 Clinical applications of neuroscience
 	<br>
-	202 Neuromuscular junction and muscle disease
+	- 202 Neuromuscular junction and muscle disease
 	<br>
-	203 Peripheral nervous system
+	- 203 Peripheral nervous system
 	<br>
-	204 Disorders of the spinal cord and anterior horn ce*lls.
+	- 204 Disorders of the spinal cord and anterior horn ce*lls.
 	<br>
-	205 Neurology of infections disease
+	- 205 Neurology of infections disease
 	<br>
-	206 Disorders of the autonomic nervous system
+	- 206 Disorders of the autonomic nervous system
 	<br>
-	207 Cerebral vascular disease
+	- 207 Cerebral vascular disease
 	<br>
-	208 The cerebellum and cerebellar disorders
+	- 208 The cerebellum and cerebellar disorders
 	<br>
-	209 Headache
+	- 209 Headache
 	<br>
-	210 Neurobiology of cognitive function
+	- 210 Neurobiology of cognitive function
 	<br>
-	211 Syndromes of cognitive function
+	- 211 Syndromes of cognitive function
 	<br>
-	212 Advanced applications and diagnosis
+	- 212 Advanced applications and diagnosis
 	<br>
-	213 Neurology of sleep disorders
+	- 213 Neurology of sleep disorders
 	<br>
-	214 Neoplasms of the nervous system
+	- 214 Neoplasms of the nervous system
 	<br>
-	270 Quantitative evaluation of visual saccades in traumatic brain injury
+	- 270 Quantitative evaluation of visual saccades in traumatic brain injury
 	<br>
-	816 Peripheral nervous system
+	- 816 Peripheral nervous system
 	<br>
-	272 Gait and neurological systems
+	- 272 Gait and neurological systems
 	<br>
-	Functional Neuro-Orthopaedic Rehabilitation (FNOR) of the upper quadrant
+	- Functional Neuro-Orthopaedic Rehabilitation (FNOR) of the upper quadrant
 	<br>
-	Functional Neuro-Orthopaedic Rehabilitation (FNOR) of the spine
+	- Functional Neuro-Orthopaedic Rehabilitation (FNOR) of the spine
 	<br>
-	Functional Neuro-Orthopaedic Rehabilitation (FNOR).
-<br>	Global neuromuscular assessment and corrective strategies.
+	- Functional Neuro-Orthopaedic Rehabilitation (FNOR).
+<br>- Global neuromuscular assessment and corrective strategies.
 	<br>
-	Functional Neuro-Orthopaedic Rehabilitation (FNOR). Integrative Pain Rehabilitation.
+	- Functional Neuro-Orthopaedic Rehabilitation (FNOR). Integrative Pain Rehabilitation.
 	<br>
-	Functional Neuro-Orthopaedic Rehabilitation (FNOR). Management and Rehabilitation of Complex Injury.
+	- Functional Neuro-Orthopaedic Rehabilitation (FNOR). Management and Rehabilitation of Complex Injury.
 	<br>
-	6 weeks spent at the Carrick Brain Center, Atlanta.
+	- 6 weeks spent at the Carrick Brain Center, Atlanta.
 	<br>
-	3 weeks spent assisting Dr Nate Keizer in Gouda, The Netherlands.
+	- 3 weeks spent assisting Dr Nate Keizer in Gouda, The Netherlands.
 		</p>
 	</div>
 </div>

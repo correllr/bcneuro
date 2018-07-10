@@ -2,6 +2,10 @@
 	padding: 20px 0px;
 	width: 100%;
 	text-align: center;
+	color: $maincolor;
+	@media screen and (max-width: $mobilesize) {
+		padding: 25px 0px 5px 0px;
+	}
 }
 
 #about-container {
@@ -14,11 +18,21 @@
 	min-width: 400px;
 	padding: 0px 20px;
 	line-height: 1.8rem;
+	@media screen and (max-width: $mobilesize) {
+		min-width: auto;
+		width: 100%;
+		padding: 0px;
+	}
 }
 
 #about-photo {
 	width: 300px;
 	border-radius: 10px;
+	@media screen and (max-width: $mobilesize) {
+		width: 90%;
+		height: 90%;
+		margin: auto;
+	}
 }
 
 #qualifications {
@@ -44,4 +58,11 @@
 
 #training-list {
 	line-height: 2.3rem;
+}
+
+#columns {
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		padding: 0px;
+	}
 }

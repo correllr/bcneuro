@@ -8,8 +8,8 @@ jQuery('.hidecourse').hide();
 	// Open
 		jQuery('#mobilemenuopen').click(function() {
 			jQuery('#mobilemenuopen').css({'display':'hidden'});
-			jQuery('#header-menu').fadeIn(800);
-			jQuery('#mobilemenuclose').fadeIn(800);
+			jQuery('#header-menu').fadeIn(500);
+			jQuery('#mobilemenuclose').fadeIn(500);
 		});
 	
 	
@@ -39,19 +39,19 @@ jQuery('.hidecourse').hide();
 // Show/Hide Course Content
 
 	// Show
-	jQuery('#showcourse1').click( function() {
+	jQuery('.cbt1').click( function() {
 		jQuery('.course1').css({'display':'flex'});
 		jQuery('#showcourse1').hide();
 		jQuery('#hidecourse1').show();
 	});
 
-	jQuery('#showcourse2').click( function() {
+	jQuery('.cbt2').click( function() {
 		jQuery('.course2').css({'display':'flex'});
 		jQuery('#showcourse2').hide();
 		jQuery('#hidecourse2').show();
 	});
 	
-	jQuery('#showcourse3').click( function() {
+	jQuery('.cbt3').click( function() {
 		jQuery('.course3').css({'display':'flex'});
 		jQuery('#showcourse3').hide();
 		jQuery('#hidecourse3').show();

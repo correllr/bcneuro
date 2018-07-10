@@ -85,11 +85,18 @@
 #frontspecial {
 	padding: 30px;
 	text-align: center;
+	@media screen and (max-width: $mobilesize) {
+		padding: 10px 0px;;
+	}	
 }
 
 #frontspecial-title {
 	line-height: 2.6rem;
 	margin-bottom: 20px;
+	@media screen and (max-width: $mobilesize) {
+		line-height: 1.8rem;
+		margin-bottom: 10px;
+	}	
 }
 
 // Testimonials

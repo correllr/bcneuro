@@ -7,7 +7,7 @@
 <h1 id="courses-title">Courses</h1>
 
 <div class="course-block itemcont">
-	<h2 class="course-block-title">
+	<h2 class="course-block-title cbt1">
 		Assessing and correcting movement, balance and posture: a neurological approach
 	</h2>
 	<i id="showcourse1" class="fas fa-chevron-down showcourse"></i>
@@ -24,7 +24,7 @@
 </div>
 
 <div class="course-block itemcont">
-	<h2 class="course-block-title">
+	<h2 class="course-block-title cbt2">
 		Vestibular diagnosis and treatment
 	</h2>
 	<i id="showcourse2" class="fas fa-chevron-down showcourse"></i>
@@ -43,7 +43,7 @@
 </div>
 
 <div class="course-block itemcont">
-	<h2 class="course-block-title">
+	<h2 class="course-block-title cbt3">
 		A Bespoke Day: You choose the topics covered
 	</h2>
 	<i id="showcourse3" class="fas fa-chevron-down showcourse"></i>
