@@ -10,8 +10,8 @@
 	<h2 class="course-block-title cbt1">
 		Assessing and correcting movement, balance and posture: a neurological approach
 	</h2>
-	<i id="showcourse1" class="fas fa-chevron-down showcourse"></i>
-	<i id="hidecourse1" class="fas fa-chevron-up hidecourse"></i>
+	<i id="showcourse1" class="fas fa-chevron-down showcourse cbt1"></i>
+	<i id="hidecourse1" class="fas fa-chevron-up hidecourse cbt1"></i>
 	<div id="course-block-content" class="course1">
 		<p class="course-block-description">
 			The brain controls movement, balance, posture and pain. It is the master coordinator controlling every aspect of our lives. A change in the vestibular system may lead to scoliosis. A change in the cerebellum may result in repeated shoulder injuries. In this course we will be looking at areas of the brain that are the most relevant to movement, balance, posture and pain. We will cover the conditions that most commonly present in your clinic and discuss how the nervous system is responsible for and affected by those conditions.
@@ -27,8 +27,8 @@
 	<h2 class="course-block-title cbt2">
 		Vestibular diagnosis and treatment
 	</h2>
-	<i id="showcourse2" class="fas fa-chevron-down showcourse"></i>
-	<i id="hidecourse2" class="fas fa-chevron-up hidecourse"></i>
+	<i id="showcourse2" class="fas fa-chevron-down showcourse cbt2"></i>
+	<i id="hidecourse2" class="fas fa-chevron-up hidecourse cbt2"></i>
 	<div id="course-block-content" class="course2">
 		<img class="course-block-image" src="/bcneuro/wp-content/uploads/2018/07/Spiral.jpg" alt="Dizziness" width=200 height=200>
 		<p class="course-block-description">
@@ -46,8 +46,8 @@
 	<h2 class="course-block-title cbt3">
 		A Bespoke Day: You choose the topics covered
 	</h2>
-	<i id="showcourse3" class="fas fa-chevron-down showcourse"></i>
-	<i id="hidecourse3" class="fas fa-chevron-up hidecourse"></i>
+	<i id="showcourse3" class="fas fa-chevron-down showcourse cbt3"></i>
+	<i id="hidecourse3" class="fas fa-chevron-up hidecourse cbt3"></i>
 	<div id="course-block-content" class="course3">
 		<p class="course-block-description">
 			This course is always my favourite. Each member of your group, or your group as a whole decides what they would like to cover. I will then create a seminar based on the topics you chose. A truly 100% tailored seminar. As you choose the topics covered participants normally find this day particularly rewarding.
@@ -119,8 +119,11 @@
 	<div id="columns">
 		<div id="col1" class="column">
 			<p class="price-size">Groups of 2-4 people</p>
+			<p class="mobileprice price-list">£200 per person</p>
 			<p class="price-size">Groups of 5-6 people</p>
+			<p class="mobileprice price-list">£175 per person</p>
 			<p class="price-size">Groups of 7 or more people</p>
+			<p class="mobileprice price-list">£150 per person</p>
 		</div>
 		<div id="col2"  class="column">
 			<p class="price-list">£200 per person</p>

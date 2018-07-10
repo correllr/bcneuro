@@ -40,24 +40,24 @@ jQuery('.hidecourse').hide();
 
 	// Show
 	jQuery('.cbt1').click( function() {
-		jQuery('.course1').css({'display':'flex'});
-		jQuery('#showcourse1').hide();
-		jQuery('#hidecourse1').show();
+		jQuery('.course1').toggleClass('showflex');
+		jQuery('#showcourse1').toggle();
+		jQuery('#hidecourse1').toggle();
 	});
 
 	jQuery('.cbt2').click( function() {
-		jQuery('.course2').css({'display':'flex'});
-		jQuery('#showcourse2').hide();
-		jQuery('#hidecourse2').show();
+		jQuery('.course2').toggleClass('showflex');
+		jQuery('#showcourse2').toggle();
+		jQuery('#hidecourse2').toggle();
 	});
 	
 	jQuery('.cbt3').click( function() {
-		jQuery('.course3').css({'display':'flex'});
-		jQuery('#showcourse3').hide();
-		jQuery('#hidecourse3').show();
+		jQuery('.course3').toggleClass('showflex');
+		jQuery('#showcourse3').toggle();
+		jQuery('#hidecourse3').toggle();
 	});
 
-	// Hide
+	/* Hide
 	jQuery('#hidecourse1').click( function() {
 		jQuery('.course1').hide();
 		jQuery('#showcourse1').show();
@@ -75,7 +75,7 @@ jQuery('.hidecourse').hide();
 		jQuery('#showcourse3').show();
 		jQuery(this).hide();
 	});
-
+	*/
 
 //END
 });
