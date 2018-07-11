@@ -143,7 +143,7 @@
 
 
 #mobilemenuopen {
-	display: flex;
+	display: none;
 	width: 100%;
 	text-align: center;
 	background: $maincolor;
@@ -159,7 +159,9 @@
 		font-size: 22px;
 		padding: 7px;
 	}
-	
+	@media screen and (max-width: $mobilesize) {
+		display: flex;
+	}
 }
 
 #mobilemenuclose {
