@@ -40,6 +40,11 @@
 	padding: 5px 0px;
 }
 
+.page-link::before {
+	content: "- ";
+	color: $maincolor;
+}
+
 .page-link:hover {
 	color: $maincolor;
 }
