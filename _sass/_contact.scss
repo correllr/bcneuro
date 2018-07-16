@@ -86,13 +86,13 @@
 
 #contact-information {
 	width: 45%;
-	height: 50px;
+	min-width: 350px;
+	height: auto;
 	margin: 10px auto;
 	line-height: 2.5rem;
 	@media screen and (max-width: $mobilesize) {
 		line-height: 1.5rem;
 		font-size: 100%;
-		max-width: 200px;
 		height: auto;
 		margin: 20px auto;
 	}
@@ -101,25 +101,16 @@
 
 #contact-form {
 	width: 45%;
-	margin: auto auto 10px auto;
+	min-width: 350px;
+	height: 400px;
+	margin: auto;
+	display:flex;
 	@media screen and (max-width: $mobilesize) {
-		max-width:250px;
 		margin: 0px auto;
 	}
 }
 
-#contact-maps {
-	width: 100%;
-	height: 40vh;
-	margin:auto;
-	@media screen and (max-width: $mobilesize) {
-		display: none;
-	}
-}
 
-.wpcf7-form {
-	height: 220px;
-}
 
 .wpcf7-form p {
 	height: 28px;
@@ -128,7 +119,7 @@
 .wpcf7-text,
 .wpcf7-textarea {
 	font-family: $secondfont;
-	font-size: 71%;
+	font-size: 100%;
 	color: black;
 	font-weight: 600;
 	@media screen and (max-width: $mobilesize) {
@@ -137,9 +128,14 @@
 	}
 }
 
+.wpcf7-textarea {
+	padding:4px;
+	text-align:left;
+}
+
 .wpcf7-submit {
 	position: relative;
-	top: 80px;
+	top: 110px;
 	height: 25px;
 	background: rgba(0,0,0,0.05);
 	box-shadow: none;
