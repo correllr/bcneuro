@@ -19,7 +19,7 @@
 		About BC Neuro
 	</h1>
 	<div id="frontteam-block">
-		<img class="frontteam-img" src="/bcneuro/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Name" width=250 height=true />
+		<img class="frontteam-img" src="/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Name" width=250 height=true />
 		<span id="frontteam-text">
 			<h2 class="frontteam-name">	Jake Cooke
 			</h2>
@@ -27,7 +27,7 @@
 			MChiro, DACNB
 			</h3>
 			<p class="frontteam-description">
-			Dr Jake Cooke graduated from AECC in 2009. He is a board-certified Functional Neurologist, with a diploma from the American Chiropractic Neurology Board. Jake currently works in a dedicated functional neurology practice in London, as well as a Chiropractic Clinic in Malden, Surrey. He also owns a boat.
+				<?php the_field('homepage_about_jake') ?>
 			</p>
 		</span>
 	</div>
