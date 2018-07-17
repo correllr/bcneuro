@@ -14,6 +14,14 @@
 	line-height: 1.8rem;
 	height: 100%;
 	justify-content: space-between;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	a:before {
+		content: "- ";
+		color: $maincolor;
+	}
 }
 
 #page-description {
@@ -31,6 +39,7 @@
 	width: 100%;
 	text-align: center;
 	color: $maincolor;
+	margin-bottom: 10px;
 }
 
 .page-link {

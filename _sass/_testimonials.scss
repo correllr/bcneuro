@@ -5,4 +5,19 @@
 
 #testimonials-text {
 	line-height: 1.8rem;
+	h2 {
+		margin-bottom: 20px;
+	}
+	p {
+		margin-bottom: 5px;
+		padding-bottom: 15px; 
+		border-bottom: 2px solid $maincolor;
+	}
+	p::before {
+		content: "- ";
+		color: $maincolor;
+	}
+	p:first-of-type {
+		border-top:  2px solid $maincolor;
+	}
 }

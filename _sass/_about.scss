@@ -11,6 +11,9 @@
 #about-container {
 	display: flex;
 	flex-wrap: wrap;
+		@media screen and (max-width: $tabletsize) {
+		display: block;
+	}
 }
 
 #about-text {
@@ -18,7 +21,7 @@
 	min-width: 400px;
 	padding: 0px 20px;
 	line-height: 1.8rem;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		min-width: auto;
 		width: 100%;
 		padding: 0px;
@@ -28,6 +31,10 @@
 #about-photo {
 	width: 300px;
 	border-radius: 10px;
+	@media screen and (max-width: $tabletsize) {
+		margin: 10px;
+		float: left;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width: 90%;
 		height: 90%;
@@ -45,7 +52,16 @@
 
 .qualification-text {
 	padding: 10px 0px;
-	font-weight: 700; 
+	font-weight: 700;
+	p {
+		display: block;
+		padding: 10px 0px;
+		line-height: 1.5rem;
+	}
+	p:before {
+		content: "- ";
+		color: $maincolor;
+	}
 }
 
 #training {

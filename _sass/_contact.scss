@@ -107,6 +107,8 @@
 	display:flex;
 	@media screen and (max-width: $mobilesize) {
 		margin: 0px auto;
+		width: 90%;
+		min-width: auto;
 	}
 }
 

@@ -41,12 +41,13 @@
 
 .course-block-title {
 	line-height: 3rem;
-	width: 100%;
+	width: calc(100% - 20px);
 	text-align: center;
+	padding: 2px 10px;
 	color: $maincolor;
 	background: rgba(0,0,0,0.05);
 	cursor: pointer;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		line-height: 2rem;
 	}
 }

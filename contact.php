@@ -8,8 +8,8 @@
 		<div id="contact-flex">
 			<h3 id="contact-information">
 			To book a course or for any questions, you can reach me on:<br>
-			+447494 984332 <br>
-			jake@bcneuro.co.uk<br>
+			<a href="tel:00447494984332">+447494 984332</a><br>
+			<a href="mailto:someone@example.com" target="_top">jake@bcneuro.co.uk</a><br>
 			<a id="contactfblink" href="https://www.facebook.com/bcneuro/"><i class="fab fa-facebook-square fbicon"></i></a>
 			</h3>
 			<div id="contact-form">

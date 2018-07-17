@@ -101,7 +101,7 @@
 	border-top: 2px solid grey;
 	border-bottom: 2px solid grey;
 	padding: 4px 0px;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		display: none;
 		position: fixed;
 		width: 100vw;
@@ -123,22 +123,26 @@
 		font-size: 100%;
 		padding: 3px 0px;
 	}
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		font-size: 140%;
 	}
 }
 #header-menu li {
 	display:inline;
 	margin: 0px 20px;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		display: block;
 		padding: 14px 0px;
+		width: 100%;
 	}
 }
 
 #header-menu a {
 	color: $maincolor;	
 	text-decoration: none;
+	@media screen and (max-width: $tabletsize) {
+		width: 100%;
+	}
 }
 
 
@@ -159,7 +163,7 @@
 		font-size: 22px;
 		padding: 7px;
 	}
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		display: flex;
 	}
 }
@@ -174,7 +178,7 @@
 		color: black;
 		font-size: 22px;
 	}
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		display: none;
 	}
 }

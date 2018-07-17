@@ -1,4 +1,5 @@
 $mobilesize: 680px;
+$tabletsize: 1000px;
 
 .container {
 	width: 100%;
@@ -9,6 +10,10 @@ $mobilesize: 680px;
 	width: 80%;
 	margin: auto;
 	padding: 20px 0px;
+	@media screen and (max-width: $tabletsize) {
+		width: calc(100% - 60px);
+		min-width: auto;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width: calc(100% - 20px);
 		padding: 10px 0px;

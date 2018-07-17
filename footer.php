@@ -29,7 +29,7 @@
 <!-- Example Widget Area END -->
 
 	<div class="copyright">
-		&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>, R Correll
+		&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>
 	</div>
 </div>
 
