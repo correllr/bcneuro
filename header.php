@@ -31,7 +31,7 @@
 	<?php } else { ?>
 	
 		<a id="logo" href="<?php echo home_url(); ?>">
-			<img src="/bcneuro/wp-content/uploads/2018/07/BCNeuro.jpg" alt="logo" width="100%" height=true>
+			<img src="/wp-content/uploads/2018/07/BCNeuro.jpg" alt="logo" width="100%" height=true>
 		</a>
 	<?php } ?>
 	

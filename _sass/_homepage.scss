@@ -43,6 +43,9 @@
 	width: calc(100% - 210px);
 	min-width: 500px;
 	line-height: 1.5rem;
+	h2 {
+		margin-bottom: 10px;
+	}
 	@media screen and (max-width: $tabletsize) {
 		min-width: 300px;
 	}
@@ -118,7 +121,7 @@
 
 #fronttestimonial-slider {
 	height: 300px;
-	background-image: url(/bcneuro/wp-content/uploads/2018/07/PlasticSkull-e1531053150700.jpg);
+	background-image: url(/wp-content/uploads/2018/07/PlasticSkull-e1531053150700.jpg);
 	background-color: $maincolor;
 	background-blend-mode: lighten;
 	background-size: cover;

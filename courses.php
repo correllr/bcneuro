@@ -18,7 +18,7 @@
 			<br><br>
 			This is a highly practical course with real case studies.
 		</p>
-		<img class="course-block-image" src="/bcneuro/wp-content/uploads/2018/07/Balance-e1531052341455.jpg" alt="Balance" width=200 height=200>
+		<img class="course-block-image" src="/wp-content/uploads/2018/07/Balance-e1531052341455.jpg" alt="Balance" width=200 height=200>
 		<p class="booknow open-contact">Click here to book this course</p>
 	</div>
 </div>
@@ -30,7 +30,7 @@
 	<i id="showcourse2" class="fas fa-chevron-down showcourse cbt2"></i>
 	<i id="hidecourse2" class="fas fa-chevron-up hidecourse cbt2"></i>
 	<div id="course-block-content" class="course2">
-		<img class="course-block-image" src="/bcneuro/wp-content/uploads/2018/07/Spiral.jpg" alt="Dizziness" width=200 height=200>
+		<img class="course-block-image" src="/wp-content/uploads/2018/07/Spiral.jpg" alt="Dizziness" width=200 height=200>
 		<p class="course-block-description">
 			The vestibular system is one of the most crucial areas of the nervous system. It’s one of the first areas to fully mature and the input that it provides impacts movement, balance, posture, curvature of spine, memory, cognition, spatial awareness, and the list goes on!
 			<br><br>
@@ -56,7 +56,7 @@
 			<br><br>
 			If you’re unsure if you have a suitable topic idea just send me an email at jake@bcneuro.co.uk and I’ll let you know.
 		</p>
-		<img class="course-block-image" src="/bcneuro/wp-content/uploads/2018/07/PlasticSkull-1-e1531053810809.jpg" alt="Dizziness" width=200 height=200>
+		<img class="course-block-image" src="/wp-content/uploads/2018/07/PlasticSkull-1-e1531053810809.jpg" alt="Dizziness" width=200 height=200>
 		<p class="booknow open-contact">Click here to book this course</p>
 	</div>
 </div>
