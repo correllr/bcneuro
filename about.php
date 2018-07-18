@@ -8,7 +8,8 @@
 	About Jake Cooke
 </h1>
 <div id="about-container" class="itemcont">
-	<img id="about-photo" src="/bcneuro/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Dr Jake Cooke" width=300 height=300" />
+
+	<img id="about-photo" src="/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Dr Jake Cooke" width=300 height=300" />
 	<p id="about-text">
 		"I originally qualified from the AECC in 2009 with a Masters in chiropractic with merit. In 2010 I moved to the Netherlands where I attended my first Carrick Institute neurology course. From that point I have been dedicated and relentless in my study of neurology and the understanding of human health. After 300 hours of neurology seminars and one week spent at grand rounds with Professor Carrick in Atlanta, USA, I successfully passed the American Chiropractic Neurology Board exams in 2014. I then returned to the Carrick Brain Center for a further 6 weeks of work experience with some of the leading experts in Functional Neurology.
 		<br><br>

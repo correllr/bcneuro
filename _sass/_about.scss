@@ -26,6 +26,10 @@
 		width: 100%;
 		padding: 0px;
 	}
+	@media screen and (max-width: $mobilesize) {
+		display: block;
+		float: left;
+	}
 }
 
 #about-photo {
@@ -41,6 +45,7 @@
 		margin: auto;
 	}
 }
+
 
 #qualifications {
 	margin: 0px auto;
