@@ -1,0 +1,185 @@
+// Header styling
+
+#hero {
+	width:100%;
+	height: 350px;
+	text-align: center;
+	background-size:100%;
+	background-position: center;
+	background-image: url(/wp-content/uploads/2018/07/PlasticSkull.jpg);
+	background-color: $maincolor;
+	background-blend-mode: lighten;
+	@media screen and (max-width: $mobilesize) {
+		height: auto;
+		background-color: none;
+	}
+}
+
+#hero img {
+	width: 100%;
+	height: 100%;
+}
+
+#hero--title {
+	width: 100%;
+	text-align: center;
+	font-size: 80px;
+	color:black;
+	position:relative;
+	top: 30px;
+	@media screen and (max-width: 1400px) {
+		font-size: 60px;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 50px;
+	}
+	@media screen and (max-width: 1000px) {
+		font-size: 40px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		top: 0px;
+		font-size: 170%;
+		color: black;
+		background: rgba(255,255,255,0.4);
+	}
+}
+
+#hero--subtitle {
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	color:black;
+	position:relative;
+	top: 50px;
+	@media screen and (max-width: 1400px) {
+		font-size: 50px;
+	}
+	@media screen and (max-width: 1200px) {
+	 font-size: 40px;
+	}
+	@media screen and (max-width: 1000px) {
+		font-size: 35px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		top: 0px;
+		font-size: 140%;
+		color: black;
+		background: rgba(255,255,255,0.4);
+		height: 100%;
+		padding-bottom: 5px;
+	}
+}
+
+#hero--cta {
+	position:relative;
+	top: 90px;
+	display:inline;
+	@media screen and (max-width: $mobilesize) {
+		display: none;
+	}
+}
+
+#logo {
+	width: 100%;
+	margin: 10px auto;
+	max-width: 500px;
+	display: block;
+	img {
+		margin:auto;
+		width: 100%;
+	}	
+	@media screen and (max-width: $mobilesize) {
+		max-width: 100%;
+	}
+}
+
+// MENU 
+#header-menu {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: 4px 0px;
+	@media screen and (max-width: $tabletsize) {
+		display: none;
+		position: fixed;
+		width: 100vw;
+		height: 140vh;
+		top: 0;
+		left: 0;
+		z-index: 9998;
+		background: white;
+	}
+}
+
+#header-menu ul {
+	font-size: 130%;
+	padding: 5px 0px;
+	@media screen and (max-width: 1400px) {
+		font-size: 120%;
+	}
+	@media screen and (max-width: 1200px) {
+		font-size: 100%;
+		padding: 3px 0px;
+	}
+	@media screen and (max-width: $tabletsize) {
+		font-size: 140%;
+	}
+}
+#header-menu li {
+	display:inline;
+	margin: 0px 20px;
+	@media screen and (max-width: $tabletsize) {
+		display: block;
+		padding: 14px 0px;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+#header-menu a {
+	color: $maincolor;	
+	text-decoration: none;
+	@media screen and (max-width: $tabletsize) {
+		width: 100%;
+	}
+}
+
+
+#mobilemenuopen {
+	display: none;
+	width: 100%;
+	text-align: center;
+	background: $maincolor;
+	justify-content: center;
+	i {
+		color: white;
+		font-size: 22px;
+		padding: 10px;
+
+	}
+	p {
+		color: white;
+		font-size: 22px;
+		padding: 7px;
+	}
+	@media screen and (max-width: $tabletsize) {
+		display: flex;
+	}
+}
+
+#mobilemenuclose {
+	display: none;
+	z-index: 9999;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	i {
+		color: black;
+		font-size: 22px;
+	}
+	@media screen and (max-width: $tabletsize) {
+		display: none;
+	}
+}
