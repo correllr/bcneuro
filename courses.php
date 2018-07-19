@@ -8,15 +8,15 @@
 
 <div class="course-block itemcont">
 	<h2 class="course-block-title cbt1">
-		Assessing and correcting movement, balance and posture: a neurological approach
+		The Primary Goal is Movement - the VVP approach
 	</h2>
 	<i id="showcourse1" class="fas fa-chevron-down showcourse cbt1"></i>
 	<i id="hidecourse1" class="fas fa-chevron-up hidecourse cbt1"></i>
 	<div id="course-block-content" class="course1">
 		<p class="course-block-description">
-			The brain controls movement, balance, posture and pain. It is the master coordinator controlling every aspect of our lives. A change in the vestibular system may lead to scoliosis. A change in the cerebellum may result in repeated shoulder injuries. In this course we will be looking at areas of the brain that are the most relevant to movement, balance, posture and pain. We will cover the conditions that most commonly present in your clinic and discuss how the nervous system is responsible for and affected by those conditions.
+			Movement is based on the sensory maps that the brain builds using vision, the vestibular system and proprioception (VVP). These maps are the basis of both mobility and stability, controlling curvature of the spine and posturing of the joints. If we can assess, diagnose and treat those three systems we can better aid our patients in creating healthy movement patterns and reducing pain.
 			<br><br>
-			This is a highly practical course with real case studies.
+			This course is highly practical, focusing on how to use the information taught with real patients. You will learn how to perform a complete neurology examination, how to understand the results and how to create an effective rehab program.
 		</p>
 		<img class="course-block-image" src="/wp-content/uploads/2018/07/Balance-e1531052341455.jpg" alt="Balance" width=200 height=200>
 		<p class="booknow open-contact">Click here to book this course</p>

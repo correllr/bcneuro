@@ -4,7 +4,17 @@
 
 <div id="frontpage-pitch" class="itemcont">
 	<h1 id="frontpage-pitch-text">
-	Seminars and courses for Chiropractors, Physiotherapists and other Primary Care Providers, teaching neurology for daily use in your clinic
+			<?php if (have_posts()) : 
+				while (have_posts()) : the_post(); ?>		
+				
+				<?php the_content(); ?>
+				
+		<?php endwhile;
+
+		else : 
+		echo 'Seminars and courses for Chiropractors, Physiotherapists and other Primary Care Providers, teaching neurology for daily use in your clinic';
+
+		endif; ?>
 	</h1>
 	<a id="frontpage-cta" class="btn" href="/bcneuro/courses-and-prices/">
 	Learn More
