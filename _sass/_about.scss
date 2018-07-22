@@ -11,7 +11,7 @@
 #about-container {
 	display: flex;
 	flex-wrap: wrap;
-		@media screen and (max-width: $tabletsize) {
+	@media screen and (max-width: $tabletsize) {
 		display: block;
 	}
 }
@@ -21,6 +21,9 @@
 	min-width: 400px;
 	padding: 0px 20px;
 	line-height: 1.8rem;
+	p {
+		margin-bottom: 20px;
+	}
 	@media screen and (max-width: $tabletsize) {
 		min-width: auto;
 		width: 100%;
