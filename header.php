@@ -4,7 +4,8 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 			<meta name="viewport" content="width=device-width">
 			<meta name="description" content="Neurology Seminars Tailored Specially for Chiropractors, Physiotherapist and other Primary Care Practicioners"/>
-			<title><?php echo get_bloginfo('name'); ?></title>
+			<title>Bespoke Clinical Neurology Courses and Seminars</title>
+			<link rel="icon" href="/wp-content/uploads/2018/08/BCNeuro-e1533214488749.jpg">
 		
 			<?php wp_head(); ?>
 			
