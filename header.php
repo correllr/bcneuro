@@ -6,6 +6,8 @@
 			<meta name="description" content="Neurology Seminars Tailored Specially for Chiropractors, Physiotherapist and other Primary Care Practicioners"/>
 			<title>Bespoke Clinical Neurology Courses and Seminars</title>
 			<link rel="icon" href="/wp-content/uploads/2018/08/BCNeuro-e1533214488749.jpg">
+			<!-- Google Verification -->
+			<meta name="google-site-verification" content="-wXmfMBUa5tB8z28j4XJIAEL_D2xbI8QoTkOUkpQw8Q" />
 		
 			<?php wp_head(); ?>
 			
