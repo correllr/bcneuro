@@ -19,7 +19,7 @@
 <div id="page-content" class="itemcont">
 	<div id="page-col1"  class="page-column">
 		<h3 id="page-column-1-title" class="page-col-title">
-			Functional Neurology Links
+			Links to Free Neurology Videos and Material
 		</h3>
 		<div id="page-column-1-text">
 			<?php the_field('fn_links_list'); ?>
@@ -31,14 +31,6 @@
 		</h3>
 		<div id="page-column-2-text">
 			<?php the_field('fn_courses_list'); ?>
-		</div>
-	</div>
-	<div id="page-col3" class="page-column">
-		<h3 id="page-column-3-title" class="page-col-title">
-			Find Functional Neurology Practices in UK
-		</h3>
-		<div id="page-column-3-text">
-			<?php the_field('fn_practices_list'); ?>
 		</div>
 	</div>
 </div>
