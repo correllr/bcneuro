@@ -25,6 +25,44 @@ register_nav_menus(array(
 
 add_theme_support( 'post-thumbnails' );
 
+	// Add sizes
+	add_image_size( 'square-thumbnail', 400, 400, true );
+	add_image_size( 'excerpt-thumbnail', 400, 250, true );
+	
+// Remove ... after excerpt
+function new_excerpt_more( $more ) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
+// Custom post types
+function create_post_type() {
+  register_post_type( 'video',
+    array(
+      'labels' => array(
+        'name' => __( 'Videos' ),
+        'singular_name' => __( 'Video' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+	  'menu_position' => 5,
+	  'supports' => array(
+        'title',
+		'editor',
+		'author',
+		'thumbnail',
+		'excerpt',
+		'custom-fields',
+		'comments',
+		'page-attributes'
+      ),
+	  'taxonomies' => array( 'category', 'post_tag' ),
+    )
+  );
+}
+add_action( 'init', 'create_post_type' );
+
 
 
 ?>

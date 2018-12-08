@@ -29,6 +29,9 @@
 		About BC Neuro
 	</h1>
 	<div id="frontteam-block">
+		<h3 id="broad-description">
+			<?php the_field("home_about_description"); ?>
+		</h3>
 		<img class="frontteam-img" src="/wp-content/uploads/2018/07/Jake-e1531047202743.jpeg" alt="Name" width=250 height=true />
 		<span id="frontteam-text">
 			<h2 class="frontteam-name">	Jake Cooke

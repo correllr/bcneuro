@@ -6,107 +6,50 @@
 
 <h1 id="courses-title">Courses</h1>
 
+<?php if( have_rows('courses') ): ?>
+
+<?php while( have_rows('courses') ): the_row(); ?>
+	
 <div class="course-block itemcont">
-	<h2 class="course-block-title cbt1">
-		The Primary Goal is Movement - the VVP approach
+	<h2 class="course-block-title cbt<?php echo get_row_index(); ?>">
+		<?php the_sub_field('course_title'); ?>
 	</h2>
-	<i id="showcourse1" class="fas fa-chevron-down showcourse cbt1"></i>
-	<i id="hidecourse1" class="fas fa-chevron-up hidecourse cbt1"></i>
-	<div id="course-block-content" class="course1">
-		<p class="course-block-description">
-			Movement is based on the sensory maps that the brain builds using vision, the vestibular system and proprioception (VVP). These maps are the basis of both mobility and stability, controlling curvature of the spine and posturing of the joints. If we can assess, diagnose and treat those three systems we can better aid our patients in creating healthy movement patterns and reducing pain.
-			<br><br>
-			This course is highly practical, focusing on how to use the information taught with real patients. You will learn how to perform a complete neurology examination, how to understand the results and how to create an effective rehab program.
-		</p>
-		<img class="course-block-image" src="/wp-content/uploads/2018/07/Balance-e1531052341455.jpg" alt="Balance" width=200 height=200>
+	<i id="showcourse<?php echo get_row_index(); ?>" class="fas fa-chevron-down showcourse cbt<?php echo get_row_index(); ?>"></i>
+	<i id="hidecourse<?php echo get_row_index(); ?>" class="fas fa-chevron-up hidecourse cbt<?php echo get_row_index(); ?>"></i>
+	<div id="course-block-content" class="course<?php echo get_row_index(); ?>">
+		<span class="course-block-description">
+			<?php the_sub_field('course_description')?>
+		</span>
+		<img class="course-block-image" src="<?php the_sub_field('course_image'); ?>" alt="Image" width=200 height=200>
 		<p class="booknow open-contact">Click here to book this course</p>
 	</div>
 </div>
 
-<div class="course-block itemcont">
-	<h2 class="course-block-title cbt2">
-		Vestibular diagnosis and treatment
-	</h2>
-	<i id="showcourse2" class="fas fa-chevron-down showcourse cbt2"></i>
-	<i id="hidecourse2" class="fas fa-chevron-up hidecourse cbt2"></i>
-	<div id="course-block-content" class="course2">
-		<img class="course-block-image" src="/wp-content/uploads/2018/07/Spiral.jpg" alt="Dizziness" width=200 height=200>
-		<p class="course-block-description">
-			The vestibular system is one of the most crucial areas of the nervous system. It’s one of the first areas to fully mature and the input that it provides impacts movement, balance, posture, curvature of spine, memory, cognition, spatial awareness, and the list goes on!
-			<br><br>
-			Dizziness is one of the top reasons for patients to consult their primary care physician and is one of the leading causes of disability. Treating the vestibular system is a crucial part of healthcare and it needs to be treated with precision.
-			<br><br>
-			This is an extremely practical session.
-		</p>
-		<p class="booknow open-contact">Click here to book this course</p>
-	</div>
-</div>
+<?php endwhile; ?>
 
-<div class="course-block itemcont">
-	<h2 class="course-block-title cbt3">
-		A Bespoke Day: You choose the topics covered
-	</h2>
-	<i id="showcourse3" class="fas fa-chevron-down showcourse cbt3"></i>
-	<i id="hidecourse3" class="fas fa-chevron-up hidecourse cbt3"></i>
-	<div id="course-block-content" class="course3">
-		<p class="course-block-description">
-			This course is always my favourite. Each member of your group, or your group as a whole decides what they would like to cover. I will then create a seminar based on the topics you chose. A truly 100% tailored seminar. As you choose the topics covered participants normally find this day particularly rewarding.
-			<br><br>
-			Previous requested topics have been; ADHD and autism, changes in posture with Parkinson’s disease, how does the vestibular system impact body awareness.
-			<br><br>
-			If you’re unsure if you have a suitable topic idea just send me an email at jake@bcneuro.co.uk and I’ll let you know.
-		</p>
-		<img class="course-block-image" src="/wp-content/uploads/2018/07/PlasticSkull-1-e1531053810809.jpg" alt="Dizziness" width=200 height=200>
-		<p class="booknow open-contact">Click here to book this course</p>
-	</div>
-</div>
+<?php endif; ?>
 
 <div id="upcoming">
 	<h1 id="upcoming-title">Upcoming Courses and Events</h1>
+	<?php if( have_rows('upcoming') ): 
+	while( have_rows('upcoming') ): the_row(); ?>
 		<div class="upcoming-block itemcont">
 			<h2 class="upcoming-name">
-				European Chiropractic Union Conference
+				<?php the_sub_field('upcoming_title'); ?>
 			</h2>
 			<p class="upcoming-decription">
-				25th May 2018
+				<?php the_sub_field('upcoming_date'); ?>
 			</p>
-			<a class="upcoming-link" href="http://ecu2018.com">
-				ecu2018.com
+			<?php if(get_sub_field('upcoming_url')): ?>
+			<a class="upcoming-link" href="<?php the_sub_field('upcoming_url'); ?>">
+				<?php the_sub_field('upcoming_link'); ?>
 			</a>
+			<?php endif; ?>
 			<p class="upcoming-cta open-contact">
 				Find out more
 			</p>
 		</div>	
-			
-		<div class="upcoming-block itemcont">
-			<h2 class="upcoming-name">
-				The primary goal is movement
-			</h2>
-			<p class="upcoming-decription">
-				Plympton, Plymouth. 9th June 2018
-			</p>
-			<a class="upcoming-link" href="#">
-
-			</a>
-			<p class="upcoming-cta open-contact">
-				Find out more
-			</p>
-		</div>
-		
-		<div class="upcoming-block itemcont">
-			<h2 class="upcoming-name">
-				Diagnosis and treatment of concussion, dizziness and headaches
-			</h2>
-			<p class="upcoming-decription">
-				London. 25th August 2018
-			</p>
-			<a class="upcoming-link" href="#">
-
-			</a>
-			<p class="upcoming-cta open-contact">
-				Find out more
-			</p>
-		</div>
+	<?php endwhile; endif; ?>		
 </div>
 
 <div id="price" class="itemcont">

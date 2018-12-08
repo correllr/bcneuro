@@ -76,6 +76,11 @@ jQuery('.hidecourse').hide();
 		jQuery(this).hide();
 	});
 	*/
+	
+	// Excerpt images
+	var imgWidth = jQuery('.excerpt-container img').width();
+	var imgHeight = imgWidth * 0.625;
+	jQuery('.excerpt-container img').css('height', imgHeight);
 
 //END
 });

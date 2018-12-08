@@ -1,0 +1,41 @@
+#blog-banner {
+	position: relative;
+	width: 100%;
+	height: 40vh;
+	text-align: center;
+	display: flex;
+	h1 {
+		display: inline-block;
+		width: fit-content;
+		margin: auto;
+	}
+}
+
+#blog-post-title {
+	color: $maincolor;
+	margin-top: 10px;
+	padding-bottom: 0;
+}
+
+#blog-post-content {
+	line-height: 1.5rem;
+	h2 {
+		line-height: 1.8rem;
+		padding: 25px 0px 15px;
+		color: $maincolor;
+	}
+	h3 {
+		color: $maincolor;
+	}
+	p {
+		padding: 15px 0px;
+		width:100%;
+		overflow-wrap: break-word;
+	}
+	iframe {
+		max-width: 100%;
+	}
+	a {
+		color: $maincolor;
+	}
+}
