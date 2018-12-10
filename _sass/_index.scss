@@ -50,6 +50,7 @@
 }
 
 .excerpt-title {
+	display: block;
 	font-size: 140%;
 	color: $maincolor;
 	margin-bottom: 10px;
@@ -61,7 +62,7 @@
 	background: maroon;
 	padding: 3px 5px;
 	border-radius: 4px;
-	margin: 5px 0px;
+	margin: 10px 0px 5px;
 }
 
 #column-fb {

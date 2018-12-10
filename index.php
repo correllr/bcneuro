@@ -48,7 +48,7 @@
 	
 	<div id="column-fb" class="three-column">
 		<h1>Follow me on Facebook</h1>
-		<div class="fb-page" data-href="https://www.facebook.com/trainmybrain.uk/" data-tabs="timeline" data-width="400" data-height="1500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/trainmybrain.uk/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/trainmybrain.uk/">Neuro-Muscular Rehab</a></blockquote></div>
+		<div class="fb-page" data-href="https://www.facebook.com/bcneuro/" data-tabs="timeline" data-width="400" data-height="1500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/bcneuro/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bneuro/">The Bespoke Clinical Neurology Seminars Facebook Feed is loading</a></blockquote></div>
 	</div>
 	
 </div>
